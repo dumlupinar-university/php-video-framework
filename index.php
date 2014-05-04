@@ -3,9 +3,14 @@
 	/* ilk class'ların sisteme dahili ( zorunlu class'lar ) */
 	require_once ( "classes/file_process.php" ) ;
 	
-	/* bases sayfalarının sisteme dahil edilme işlemi */
+	
+	/* Dosya işlemlerini gerçekleştiren sınıfın oluşturulması */
 	$files = new file_process () ;
 	
+	/* config dosyalarının sisteme dahil edilmesi */
+	$files -> requireFile ( "configurations", "general_config" ) ; 
+	
+	/* bases sayfalarının sisteme dahil edilme işlemi */
 	$files -> requireFile ( "bases", "head" ) ;
 	
 	$files -> requireFile ( "bases", "menu" ) ;

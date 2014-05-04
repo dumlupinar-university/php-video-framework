@@ -24,6 +24,8 @@
 				
 				echo '<div class = "hata" > Hata Kodu :  ' . $e -> getCode () . '<br /><br /></div>' ;
 				
+				exit () ;
+				
 			}
 			
 		}

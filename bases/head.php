@@ -8,22 +8,22 @@
 	<head>
 	
 		<!-- Title -->
-		<title>Online Course System</title>
+		<title><?php echo TITLE ?></title>
 		
 		<!-- Charset -->
 		<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
 		
 		<!-- CSS File -->
-		<link href="styles/maintheme.css" type="text/css" rel="stylesheet"/>
+		<link href=<?php echo THEME ?> type="text/css" rel="stylesheet"/>
 		
 		<!-- Description -->
-		<meta name="description" content="Video Course System"/>
+		<meta name="description" content=<?php echo DESCRIPTION ?>/>
 		
 		<!-- Keywords -->
-		<meta name="keywords" content="Educations, Lessons, Video Course"/>
+		<meta name="keywords" content=<?php echo KEYWORDS ?>/>
 		
 		<!-- Author -->
-		<meta name="author" content="Deniz - Furkan"/>
+		<meta name="author" content=<?php echo AUTHOR ?>/>
 		
 	</head>
 	
