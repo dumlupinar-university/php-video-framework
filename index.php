@@ -1,9 +1,17 @@
 <?php
 	
+	/* ilk class'ların sisteme dahili ( zorunlu class'lar ) */
+	require_once ( "classes/file_process.php" ) ;
+	
 	/* bases sayfalarının sisteme dahil edilme işlemi */
-	require_once ( "bases/head.php" ) ;
-	require_once ( "bases/menu.php" ) ;
-	require_once ( "bases/content.php" ) ;
-	require_once ( "bases/foot.php" ) ;
-
+	$files = new file_process () ;
+	
+	$files -> requireFile ( "bases", "head" ) ;
+	
+	$files -> requireFile ( "bases", "menu" ) ;
+	
+	$files -> requireFile ( "bases", "content" ) ;
+	
+	$files -> requireFile ( "bases", "foot" ) ;
+	
 ?>
