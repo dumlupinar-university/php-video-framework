@@ -14,7 +14,7 @@
 		<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
 		
 		<!-- CSS File -->
-		<link href="styles/style.css" type="text/css" rel="stylesheet"/>
+		<link href="styles/maintheme.css" type="text/css" rel="stylesheet"/>
 		
 		<!-- Description -->
 		<meta name="description" content="Video Course System"/>

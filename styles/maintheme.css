@@ -1,0 +1,59 @@
+a:visited{ 
+	color: blue;
+}
+
+body{
+	margin: 1em;
+	margin-bottom: 0em;
+	background-color: #000000;
+}
+
+#head{
+	margin-bottom: 1em;
+	padding: 1em;
+	height: 8em;
+	background-color: #FF9933 ;
+	color: black;	
+	text-align: center;
+}
+
+#content{
+	padding: 1em;
+	height: auto;
+	background-color: #333366;
+	color: white;
+	margin-bottom: 1em;
+}
+
+#menu{
+	margin-bottom: 1em;
+	padding: 1em;
+	height: 3em;
+	background-color: #413838;
+	color: white;
+}
+
+#menu ul li{
+	display: inline;
+	list-style: none;
+	color: white;
+}
+
+#menu ul li a{
+	 text-decoration: none;
+	 padding: 1em;
+	 color: white;
+}
+
+#foot{
+	padding: 1em;
+	height: 2em;
+	background-color: #A55D35;
+	text-align: center;
+	color: white;
+	margin-bottom: 1em;
+}
+
+tr, td {
+	text-align:center;
+}
