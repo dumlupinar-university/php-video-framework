@@ -1,9 +1,10 @@
-<!-- XHTML 1.O -->
+<!-- XHTML 1.O Doctype -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
+<!-- html açılış tag'ı -->
 <html xmlns="http://www.w3.org/1999/xhtml">
 	
-	<!-- head -->
+	<!-- head açılış tag'ı -->
 	<head>
 	
 		<!-- Title -->
@@ -26,7 +27,7 @@
 		
 	</head>
 	
-	<!-- body -->
+	<!-- body açılış tag'ı -->
 	<body>
 		
 		<!-- head div'i -->
