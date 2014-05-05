@@ -7,7 +7,7 @@
 			<ul>
 				<li><a href="index.php">Anasayfa</a></li>
 				<li><a href="index.php?cont=about">About</a></li>
+				<li><a href="index.php?cont=login">Login</a></li>
 			</ul>
 			
 		</div>
-		

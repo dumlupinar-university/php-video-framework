@@ -58,7 +58,12 @@ tr, td {
 	text-align:center ;
 }
 
-.hata {
+.error {
+	color: white ;
+	text-align: center ;
+}
+
+.title {
 	color: white ;
 	text-align: center ;
 }
